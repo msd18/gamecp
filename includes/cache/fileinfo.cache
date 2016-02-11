@@ -1,0 +1,43 @@
+admin_banuser.php,Server Admin,Manage Bans
+admin_edit_character.php,Server Admin,Edit Character
+admin_edit_inventory.php,Server Admin,Edit Inventory
+admin_gamecp_logs.php,Logs,Game CP Logs
+admin_give_item.php,Server Admin,Give Item
+admin_gmaccounts.php,Server Admin,GM Accounts
+admin_maillogs.php,Logs,Mail Logs
+admin_manage_credits.php,Item Shop Admin,Manage Credits
+admin_manage_items.php,Item Shop Admin,Manage Items
+admin_manage_items_cat.php,Item Shop Admin,Manage Categories
+admin_manage_redeem.php,Logs,Manage Redeem Logs
+admin_manage_renteditems.php,Item Shop Admin,Manage Rented Items
+admin_manage_users.php,Item Shop Admin,Manage Users
+admin_versioncheck.php,Super Admin,Check Version
+admin_vote_logs.php,Logs,Vote Logs
+admin_vote_sites.php,Server Admin,Vote Sites
+all_player_list.php,Server,Player List
+all_serverstats.php,Server,Server Stats
+all_userbanlist.php,Server,Banned Users
+superadmin_configuration.php,Super Admin,<b>Configuration</b>
+superadmin_permissions.php,Super Admin,<b>Permissions</b>
+support_bankitemsearch.php,Support,Bank Search
+support_changename.php,Logs,Name Changes Logs
+support_charlookup.php,Support,Char Lookup
+support_desk.php,Support,User Information
+support_equipmentsearch.php,Support,Equipment Search
+support_guild_search.php,Support,Guild Search
+support_inventory.php,Support,Inventory Search
+support_items_list.php,Support,Items List
+support_item_charge.php,Logs,Rented Items Logs
+support_list_guilds.php,Support,Guild List
+support_logoutlogs.php,Logs,Logout Logs
+support_monsters_list.php,Support,Monster List
+support_newaccounts.php,Support,New Accounts
+user_accountinfo.php,Account,Account Info
+user_changecharname.php,Account,Change Char Name
+user_changepassword.php,Account,Change Password
+user_convert_points.php,Donations,Convert Points
+user_donations.php,Donations,Purchase GP (PayPal)
+user_donations_google.php,Donations,Purchase GP (Google)
+user_itemshop.php,Donations,Item Shop
+user_items_redeemed.php,Donations,Item Redeem Logs
+user_rented_items.php,Donations,Buy Rented Items

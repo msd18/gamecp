@@ -1,0 +1,148 @@
+/**
+* vBulletin 3.7.1 CSS (Taken from)
+*/
+body
+{
+	background: #FFFFFF url(images/bg.gif);
+	color: #5D5D5E;
+	font: 8pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px;
+	padding: 10px;	
+}
+a:link, body_alink
+{
+	color: #5D5D5E;
+}
+a:visited, body_avisited
+{
+	color: #5D5D5E;
+}
+a:hover, a:active, body_ahover
+{
+	color: #99977e;
+}
+td, th, p, li
+{
+	font: 8pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #d1d1d1;
+	color: #5D5D5E;
+	border: 1px solid #F1F1F1;
+}
+.tcat
+{
+	background: #ffeb7a  url(images/cat_back.gif) repeat-x top left;
+	color: #6699CC;
+	font: bold 8pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #5D5D5E;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #6699CC;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #b97025;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #e6e6d8 url(images/strip_back.gif) repeat-x top left;
+	color: #767569;
+	font: bold 10px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #767569;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #767569;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #99977e;
+}
+.alt1, .alt1Active
+{
+	background: #F5F5F5;
+	color: #5D5D5E;
+	border-left: 1px solid #f8f8f8;
+	border-top: 1px solid #f8f8f8;
+}
+.alt2, .alt2Active
+{
+	background: #f2f2f2;
+	color: #5D5D5E;
+	border-left: 1px solid #f8f8f8;
+	border-top: 1px solid #f8f8f8;
+}
+textarea, .bginput
+{
+	background: #f5f5ef;
+	color: #4d4d4d;
+	font: 9pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	background: #f5f5ef;
+	color: #767569;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	text-decoration: none;
+	color: #5d5d5e;
+	font: 10px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.navbar
+{
+	color: #5d5d5e;
+	font: 10px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.panel
+{
+	background: #f6f6f6;
+	color: #4d4d4d;
+	padding: 10px;
+	border: 1px solid #c1cfe3;
+}
+.panelsurround
+{
+	background: #e5ecf3;
+	color: #4d4d4d;
+}
+legend
+{
+	color: #4d4d4d;
+	font: 10px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }}
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en">
+<head>
+<title>$title</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="./includes/templates/main.css" />
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./jquery.jeditable.js" type="text/javascript"></script>
+<script type="text/javascript" src="./php_ajax_framework.js"></script>
+<script type="text/javascript" src="./includes/templates/main.js"></script>
+
+<script type="text/javascript">
+function check_itemname_init(item_code) {
+  var itemcode_field = document.getElementById(item_code);
+  return '$script_name?do=admin_edit_inventory&page=getcode&itemcode=' + itemcode_field.value;
+}
+function check_itemname_ajax(results,result_name) {
+  var results_div = document.getElementById(result_name);
+  results_div.innerHTML = results;
+}
+function check_itemname(item_code,result_name) {
+  var itemcode_field = document.getElementById(item_code);
+  if (itemcode_field.value.length > 0) {
+    //call our AJAX function in the PHP AJAX Framework
+    ajaxHelper('check_itemname',item_code,result_name);
+  }
+  else {
+    //clear results field 
+    var results_div = document.getElementById(result_name);
+    results_div.innerHTML = '';
+  }
+}
+</script>
+
+<style type="text/css">
+.level_0 {
+	background: #f2f2f2;
+	color: #5D5D5E;
+	border-left: 1px solid #f8f8f8;
+	border-top: 1px solid #f8f8f8;
+}
+
+.level_1 {
+	background-color: #dcdca5;
+}
+
+.level_2 {
+	background-color: #c3c392;
+}
+
+.level_3 {
+	background-color: #CCCC33;
+}
+
+.level_4 {
+	color: #FFFFFF;
+	background-color: #CC3300;
+}
+
+.level_5 {
+	color: #FFFFFF;
+	background-color: #CC0000;
+}
+
+.item_highlight {
+	background-color: #c3c392;
+	color: #FFFFFF;
+}
+.hide {
+    display: none;
+}
+.more {
+    display: none;
+}
+a.showLink, a.hideLink {
+    text-decoration: none;
+    color: #36f;
+    background: transparent url('down.gif') no-repeat left; }
+a.hideLink {
+    background: transparent url('up.gif') no-repeat left; }
+a.showLink:hover, a.hideLink:hover {
+    border-bottom: 1px dotted #36f; }
+</style>
+
+</head>
+
+<body>
+
+<div style="text-align: center; padding-top: 4px;">$vote_page</div>
+<div id="show_vinfo" style="text-align: center;"></div>
